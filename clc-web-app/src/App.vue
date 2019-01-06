@@ -1,27 +1,27 @@
 <template>
   <v-app>
-    <v-toolbar app dark color="#000000">
-        <v-toolbar-side-icon></v-toolbar-side-icon>
-        <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
-    </v-toolbar>
+    <!-- Toolbar -->
+    <v-container>
+      <v-component>
+        <Toolbar/>
+      </v-component>
+    </v-container>
 
-    
+    <!-- Footer -->
+    <v-component>
+      <Footer/>
+    </v-component>
   </v-app>
 </template>
 
 <script>
-
+import Toolbar from "./components/toolbar/toolbar"
+import Footer from "./components/footer/footer"
 export default {
   name: 'App',
   components: {
-    
+    Toolbar,
+    Footer
   },
   data () {
     return {
