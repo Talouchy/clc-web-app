@@ -9,7 +9,7 @@
 
           <v-spacer></v-spacer>
 
-          <v-btn icon>
+          <v-btn to="/" icon>
             <v-icon color="#000000">home</v-icon>
           </v-btn>
           </v-toolbar>  
