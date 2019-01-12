@@ -2,15 +2,17 @@
   <v-app>
     <!-- Toolbar -->
     <v-container>
-      <v-component>
         <Toolbar/>
-      </v-component>
     </v-container>
 
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+
     <!-- Footer -->
-    <v-component>
-      <Footer/>
-    </v-component>
+    <v-container>
+    <Footer/>
+    </v-container>
   </v-app>
 </template>
 
