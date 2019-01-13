@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Welcome from './../components/Welcome'
 import Dashboard from './../components/Dashboard'
 import Settings from './../components/Settings'
+import Feedback from './../components/Feedback'
 
 Vue.use(VueRouter)
 
@@ -22,7 +23,7 @@ export default new VueRouter({
       path: '/dashboard',
       name:'dashboard',
       meta: {
-        title: 'dashboard'
+        title: 'DASHBOARD'
       },
       component: Dashboard
     },
@@ -33,6 +34,14 @@ export default new VueRouter({
         title: 'SETTINGS'
       },
       component: Settings
+    },
+    {
+      path: '/feedback',
+      name:'feedback',
+      meta: {
+        title: 'FEEDBACK'
+      },
+      component: Feedback
     },
   ]
 })
