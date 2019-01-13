@@ -5,7 +5,7 @@
           </v-btn>
         
         <v-spacer></v-spacer>
-          <v-toolbar-title class="black--text">Dashboard</v-toolbar-title>
+          <v-toolbar-title class="black--text">{{ this.$route.meta.title.toUpperCase() }}</v-toolbar-title>
 
           <v-spacer></v-spacer>
 
