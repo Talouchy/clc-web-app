@@ -1,9 +1,7 @@
 <template>
   <v-app>
     <!-- Toolbar -->
-    <v-container>
-        <Toolbar/>
-    </v-container>
+    <Toolbar/>
 
     <v-content>
       <router-view></router-view>
