@@ -15,12 +15,12 @@
 
       <v-flex mb-5 xs12>
         <h2 class="headline font-weight-bold mb-3">
-          <a href="http://localhost:8080/#/dashboard" class="subheading mx-3">
+          <a href="/#/dashboard" class="subheading mx-3">
             Dashboard page
           </a>
         </h2>
         <h2 class="headline font-weight-bold mb-3">
-          <a href="http://localhost:8080/#/settings" class="subheading mx-3">
+          <a href="/#/settings" class="subheading mx-3">
             Settings page
           </a>
         </h2>

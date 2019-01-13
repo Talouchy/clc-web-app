@@ -30,3 +30,8 @@ export default {
   }
 }
 </script>
+
+<style>
+@import './assets/css/style.css';
+</style>
+
