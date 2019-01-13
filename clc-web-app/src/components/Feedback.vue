@@ -30,9 +30,9 @@
     </v-flex>
     <v-flex
       xs4 offset-xs7
-      sm2 offset-sm10
-      md3 offset-md9
-      lg3 offset-lg9
+      sm3 offset-sm9
+      md3 offset-md8
+      lg3 offset-lg8
       xl3 offset-xl9
       >
       <v-btn
