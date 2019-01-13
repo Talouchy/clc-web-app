@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import Welcome from './../components/Welcome'
 import Dashboard from './../components/Dashboard'
+import Settings from './../components/Settings'
 
 Vue.use(VueRouter)
 
@@ -12,14 +13,26 @@ export default new VueRouter({
     { 
       path: '/',
       name:'index',
-      pageTitle: 'Welcome to the CLC App',
+      meta: {
+        title: 'Welcome'
+      },
       component: Welcome,
     },
     {
       path: '/dashboard',
       name:'dashboard',
-      pageTitle: 'DASHBOARD',
+      meta: {
+        title: 'dashboard'
+      },
       component: Dashboard
+    },
+    {
+      path: '/settings',
+      name:'settings',
+      meta: {
+        title: 'SETTINGS'
+      },
+      component: Settings
     },
   ]
 })
