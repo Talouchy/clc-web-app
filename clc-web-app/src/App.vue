@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="ice_app_color">
     <!-- Toolbar -->
     <Toolbar/>
 
