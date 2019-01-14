@@ -6,7 +6,7 @@ import Dashboard from './../components/Dashboard'
 import Settings from './../components/Settings'
 import Feedback from './../components/Feedback'
 import Events from './../components/Events'
-
+import EventDetails from './../components/Event_Details'
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -59,6 +59,14 @@ export default new VueRouter({
         title: 'EVENTS'
       },
       component: Events
+    },
+    {
+      path: '/event_details',
+      name:'event_details',
+      meta: {
+        title: 'Event Details'
+      },
+      component: EventDetails
     },
   ]
 })

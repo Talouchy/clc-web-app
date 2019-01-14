@@ -35,7 +35,7 @@
             <!-- Layout for read more button -->
             <v-layout justify-end>
               <v-flex xs12 text-xs-right>
-                  <v-btn flat color="">
+                  <v-btn flat color="" to="/Event_Details">
                     <v-icon left dark>arrow_forward</v-icon>Read more
                   </v-btn>
               </v-flex>
