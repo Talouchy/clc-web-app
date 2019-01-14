@@ -16,7 +16,8 @@ Vue.use(Vuetify, {
     darb_app_color: '#324755',
     onyx_app_color: '#1B1C20',
     slate_app_color: '#6E8CA0',
-    ice_app_color: '#F0F3F4'
+    ice_app_color: '#F0F3F4',
+    grey_font_color: '#798186',
   },
   iconfont: 'md',
 })
