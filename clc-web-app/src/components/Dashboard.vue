@@ -89,9 +89,10 @@
             flat 
             tile
             :ripple="rippleOn"
+            :to="card.to"
             >
             <img
-              :src="card.src"
+              :src="card.imgSrc"
               height="60"
               width="60"
               >
@@ -119,12 +120,12 @@
       author_quote: "-Henry David Thoreau",
       
        cards: [
-        { title: 'Floor Map', src: 'https://i.ibb.co/br2bxrZ/route.png', flex: 4 },
-        { title: 'Events', src: 'https://i.ibb.co/K245nTm/buffet-1.png', flex: 4 },
-        { title: 'Blog post', src: 'https://i.ibb.co/DWyTPsW/social-media-1.png', flex: 4 },
-        { title: 'Units', src: 'https://i.ibb.co/BK91HPV/books-1.png', flex: 4 },
-        { title: 'Gaming', src: 'https://i.ibb.co/qJsTnKX/jigsaw-2.png', flex: 4 },
-        { title: 'Staff members', src: 'https://i.ibb.co/vYYmm0d/team-1.png', flex: 4 },
+        { title: 'Floor Map', to:'', imgSrc: 'https://i.ibb.co/br2bxrZ/route.png', flex: 4 },
+        { title: 'Events', to:'/events', imgSrc: 'https://i.ibb.co/K245nTm/buffet-1.png', flex: 4 },
+        { title: 'Blog post', to:'', imgSrc: 'https://i.ibb.co/DWyTPsW/social-media-1.png', flex: 4 },
+        { title: 'Units', to:'', imgSrc: 'https://i.ibb.co/BK91HPV/books-1.png', flex: 4 },
+        { title: 'Gaming', to:'', imgSrc: 'https://i.ibb.co/qJsTnKX/jigsaw-2.png', flex: 4 },
+        { title: 'Staff members', to:'', imgSrc: 'https://i.ibb.co/vYYmm0d/team-1.png', flex: 4 },
 
       ]
 
