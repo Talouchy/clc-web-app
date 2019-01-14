@@ -26,6 +26,11 @@
             Feedback page
           </a>
         </h2>
+        <h2 class="headline font-weight-bold mb-3">
+          <a href="/#/events" class="subheading mx-3">
+            Events page
+          </a>
+        </h2>
       </v-flex>
     </v-layout>
   </v-container>
