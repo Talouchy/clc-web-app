@@ -12,23 +12,23 @@
       <v-flex xs4 sm5 pr-2 pt-3 pb-2
         text-xs-right
         >
-        
+
         <v-avatar 
-          :tile="title"
+          :tile="tile"
           :size="size"
           color="grey lighten-4"
           >
           <img src="https://i.ibb.co/FBCFyC9/00000-PORTRAIT-00000-BURST20180321151620375.jpg" alt="00000-PORTRAIT-00000-BURST20180321151620375">
         </v-avatar>
       </v-flex>
-        
+
       <!-- flex layout for student name -->
       <v-flex xs8 sm7
         align-self-center
         text-md-start
         text-xs-start
         >
-          
+
         <v-card 
           flat 
           class="rust_app_color lighten-1"
@@ -43,7 +43,6 @@
         text-md-center
         text-xs-center
         > 
-  
         <v-card 
           flat
           class="rust_app_color lighten-1"
@@ -54,7 +53,7 @@
             class="text-no-wrap regular white--text font-weight-regular"
             >
           </v-card-text>
-          
+
           <!-- card text for authers name  -->
           <v-card-text 
               v-text="author_quote"
@@ -86,11 +85,10 @@
             :key="card.title"
             pt-3
             >
-         
           <v-card
             flat 
             tile
-            ripple="true"
+            :ripple="rippleOn"
             >
             <img
               :src="card.src"
@@ -99,22 +97,14 @@
               >
 
             <p v-text="card.title"></p>
-            
+
           </v-card>
           </v-flex>
           </v-layout>
         </v-card>
       </v-flex>
      </v-layout>
-
-    
-
-
-  
-  
-  
     </v-flex> 
- 
     </v-flex>
   </v-layout>
 </template>
@@ -122,7 +112,8 @@
 <script>
   export default {
     data: () => ({
-      tile: true,
+      tile: false,
+      rippleOn: true,
       size: 80,
       quote: "It's not what you look at that matters, it's what you see.",
       author_quote: "-Henry David Thoreau",
